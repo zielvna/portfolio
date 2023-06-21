@@ -9,13 +9,13 @@ This is an app about me and all my projects. It shows some information about me,
 | Tech        | Use                  |
 | ----------- | -------------------- |
 | React       | Library              |
-| Typescript  | Language             |
+| TypeScript  | Language             |
 | CSS Modules | CSS                  |
-| SCSS        | CSS Preprocessor     |
+| SASS        | CSS Preprocessor     |
 | Netlify     | Deployment & hosting |
 | Figma       | UI & UX design       |
 | Yarn        | Package manager      |
-| Eslint      | Linter               |
+| ESLint      | Linter               |
 | Prettier    | Code formatter       |
 | Classnames  | Conditional styles   |
 

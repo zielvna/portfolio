@@ -4,11 +4,11 @@ import styles from './Skills.module.scss';
 export const SkillsSection = () => {
     const skills = [
         { name: 'HTML', technologies: '' },
-        { name: 'CSS', technologies: 'SCSS, CSS Modules, Styled components, Tailwind' },
-        { name: 'JavaScript', technologies: 'React, Next, Redux, React Hook Form, React Native, Expo, Electron' },
+        { name: 'CSS', technologies: 'SASS, Styled Components, Tailwind, CSS Modules' },
+        { name: 'JavaScript', technologies: 'React, Next, React Native, Expo, Electron, Redux, React Hook Form' },
         { name: 'TypeScript', technologies: '' },
-        { name: 'Tools', technologies: 'NPM, Yarn, Eslint, Git, Github Actions, Figma, Postman, VSC' },
-        { name: 'Other', technologies: 'Firebase, Vercel' },
+        { name: 'Tools', technologies: 'NPM, Yarn, Eslint, Git, GitHub Actions, Figma, Postman, VSC' },
+        { name: 'Other', technologies: 'Firebase, Vercel, Netlify' },
     ];
 
     const getList = () => {

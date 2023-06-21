@@ -28,6 +28,14 @@ export const ProjectsSection = () => {
             technologies: 'Electron, GitHub Actions',
             image: 'https://github.com/zielvna/portfolio/assets/102986585/a942f4ef-6b78-4c87-addb-45aa09054a6d',
         },
+        {
+            name: 'Portfolio',
+            description:
+                'An app about me and all my projects. By doing this project I got more proficient in TypeScript & SASS and CSS Modules.',
+            githubLink: 'https://github.com/zielvna/screenshoter',
+            technologies: 'React, TypeScript, CSS Modules, SASS, Netlify',
+            image: 'https://github.com/zielvna/portfolio/assets/102986585/f50fc2aa-116a-40d8-b505-6963905fc3ed',
+        },
     ];
 
     return (
