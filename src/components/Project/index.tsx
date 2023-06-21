@@ -7,10 +7,9 @@ type Props = {
     githubLink: string;
     liveLink?: string;
     technologies: string;
-    image: string;
 };
 
-export const Project = ({ name, description, githubLink, liveLink, technologies, image }: Props) => {
+export const Project = ({ name, description, githubLink, liveLink, technologies }: Props) => {
     const links: Link[] = [{ name: 'gitHub', to: githubLink }];
 
     if (liveLink) {
@@ -19,19 +18,14 @@ export const Project = ({ name, description, githubLink, liveLink, technologies,
 
     return (
         <div className={styles.container}>
-            <div className={styles.body}>
-                <div className={styles.info}>
-                    <div>
-                        <p className={styles.name}>{name}</p>
-                        <p className={styles.description}>{description}</p>
-                        <div className={styles.linkContainer}>
-                            <LinkGroup links={links} />
-                        </div>
-                    </div>
-                    <p className={styles.technologies}>{technologies}</p>
+            <div>
+                <p className={styles.name}>{name}</p>
+                <p className={styles.description}>{description}</p>
+                <div className={styles.linkContainer}>
+                    <LinkGroup links={links} />
                 </div>
             </div>
-            <img className={styles.image} src={image} alt={`${name} application preview.`} />
+            <p className={styles.technologies}>{technologies}</p>
         </div>
     );
 };

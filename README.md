@@ -21,8 +21,8 @@ This is an app about me and all my projects. It shows some information about me,
 
 ## Preview 👀
 
-![Preview image 1](https://github.com/zielvna/portfolio/assets/102986585/5dec0211-6ce9-42aa-9612-f50068d12980)
-![Preview image 2](https://github.com/zielvna/portfolio/assets/102986585/588c8a9f-9a7f-4afd-8bd0-561eb7ab6137)
+![Preview image 1](https://github.com/zielvna/portfolio/assets/102986585/2e8c85ea-b320-41f2-bbe1-a94987edd56c)
+![Preview image 2](https://github.com/zielvna/portfolio/assets/102986585/2292d62b-b79a-4c79-9bed-36ea95e2d557)
 
 ## Installation 💾
 

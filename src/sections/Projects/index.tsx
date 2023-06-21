@@ -1,5 +1,6 @@
 import { Project } from '../../components/Project';
 import { Section } from '../../components/Section';
+import styles from './Projects.module.scss';
 
 export const ProjectsSection = () => {
     const projects = [
@@ -10,7 +11,6 @@ export const ProjectsSection = () => {
             githubLink: 'https://github.com/zielvna/photogram',
             liveLink: 'https://photogram-zielvna.vercel.app/',
             technologies: 'Next, TypeScript, Firebase, Tailwind, React Hook Form, Vercel',
-            image: 'https://github.com/zielvna/portfolio/assets/102986585/4d339bb8-71c6-4b10-800c-fa5a84eb4964',
         },
         {
             name: 'Caloriatu',
@@ -18,7 +18,6 @@ export const ProjectsSection = () => {
                 'A mobile app to track calories. By doing this project I learnt how to develop mobile apps, how they work and how to store data.',
             githubLink: 'https://github.com/zielvna/caloriatu',
             technologies: 'React Native, Expo, Styled Components, Redux',
-            image: 'https://github.com/zielvna/portfolio/assets/102986585/906766bc-e6b6-403b-89a5-ad37728f2e99',
         },
         {
             name: 'Screenshoter',
@@ -26,7 +25,6 @@ export const ProjectsSection = () => {
                 'A screenshot app for all platforms. By doing this project I learnt how to develop desktop apps and how to use CI/CD tools.',
             githubLink: 'https://github.com/zielvna/screenshoter',
             technologies: 'Electron, GitHub Actions',
-            image: 'https://github.com/zielvna/portfolio/assets/102986585/a942f4ef-6b78-4c87-addb-45aa09054a6d',
         },
         {
             name: 'Portfolio',
@@ -34,15 +32,16 @@ export const ProjectsSection = () => {
                 'An app about me and all my projects. By doing this project I got more proficient in TypeScript & SASS and CSS Modules.',
             githubLink: 'https://github.com/zielvna/screenshoter',
             technologies: 'React, TypeScript, CSS Modules, SASS, Netlify',
-            image: 'https://github.com/zielvna/portfolio/assets/102986585/f50fc2aa-116a-40d8-b505-6963905fc3ed',
         },
     ];
 
     return (
         <Section title="Projects" id="projects">
-            {projects.map((project) => (
-                <Project key={project.name} {...project} />
-            ))}
+            <div className={styles.container}>
+                {projects.map((project) => (
+                    <Project key={project.name} {...project} />
+                ))}
+            </div>
         </Section>
     );
 };

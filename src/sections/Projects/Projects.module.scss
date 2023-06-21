@@ -1,0 +1,13 @@
+@use '../../partials/variables';
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+}
+
+@media (min-width: variables.$desktopBreakpoint) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
