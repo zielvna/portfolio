@@ -1,0 +1,16 @@
+.container {
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.description {
+    max-width: 448px;
+    margin: 16px 0 0 0;
+}

@@ -1,0 +1,31 @@
+@use '../../partials/variables';
+
+.small {
+    &:hover {
+        background-color: variables.$primaryColor;
+        color: variables.$backgroundColor;
+    }
+}
+
+.big {
+    width: fit-content;
+    display: block;
+    padding: 16px;
+    border: 1px solid variables.$primaryColor;
+
+    &:hover {
+        background-color: variables.$primaryColor;
+        color: variables.$backgroundColor;
+    }
+}
+
+.icon {
+    width: fit-content;
+    display: block;
+    padding: 4px;
+    border: 1px solid variables.$backgroundColor;
+
+    &:hover {
+        border: 1px solid variables.$primaryColor;
+    }
+}

@@ -1,0 +1,62 @@
+@use '../../partials/variables';
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.desktop {
+    display: none;
+    align-items: center;
+}
+
+.mobile {
+    display: block;
+}
+
+.link {
+    margin: 32px 16px;
+}
+
+.icon {
+    color: variables.$primaryColor;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: variables.$backgroundColor;
+}
+
+.overlayOpen {
+    display: block;
+}
+
+.overlayHeader {
+    height: 96px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 16px 0 0;
+}
+
+.overlayBody {
+    height: calc(100% - 96px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: variables.$desktopBreakpoint) {
+    .desktop {
+        display: flex;
+    }
+
+    .mobile {
+        display: none;
+    }
+}

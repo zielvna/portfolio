@@ -1,0 +1,11 @@
+@use '../../partials/variables';
+
+.container {
+    display: flex;
+}
+
+.icon {
+    color: variables.$primaryColor;
+    font-size: 32px;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+@use 'partials/_variables';
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: variables.$backgroundColor;
+    color: variables.$primaryColor;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+p {
+    line-height: 21px;
+}
