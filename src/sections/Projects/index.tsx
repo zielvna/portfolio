@@ -5,6 +5,13 @@ import styles from './Projects.module.scss';
 export const ProjectsSection = () => {
     const projects = [
         {
+            name: 'Pizzaplace',
+            description:
+                'A pizzeria management app. By doing this project I learnt how to test front-end and back-end and how to communicate between client and server.',
+            githubLink: 'https://github.com/zielvna/pizzaplace',
+            technologies: 'Next, Express, MongoDB, TypeScript, Jest',
+        },
+        {
             name: 'Photogram',
             description:
                 'A photo-based social media app. By doing this project I learnt how to handle communication with server, how to upload images and a lot of new stuff about TypeScript.',
@@ -30,7 +37,8 @@ export const ProjectsSection = () => {
             name: 'Portfolio',
             description:
                 'An app about me and all my projects. By doing this project I got more proficient in TypeScript & SASS and CSS Modules.',
-            githubLink: 'https://github.com/zielvna/screenshoter',
+            githubLink: 'https://github.com/zielvna/portfolio/',
+            liveLink: '/',
             technologies: 'React, TypeScript, CSS Modules, SASS, Netlify',
         },
     ];

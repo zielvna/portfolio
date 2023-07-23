@@ -21,7 +21,7 @@ export const Menu = () => {
                     <Link to={to}>{name}</Link>
                 </div>
             ))}
-            <Link to="#" scheme="big">
+            <Link to="https://drive.google.com/file/d/1fuqNHuAfh2RFqPXhJRIIyEE9Bt4awqO_/view?usp=sharing" scheme="big">
                 Resume
             </Link>
         </>

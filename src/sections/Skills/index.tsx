@@ -3,12 +3,17 @@ import styles from './Skills.module.scss';
 
 export const SkillsSection = () => {
     const skills = [
-        { name: 'HTML', technologies: '' },
-        { name: 'CSS', technologies: 'SASS, Styled Components, Tailwind, CSS Modules' },
-        { name: 'JavaScript', technologies: 'React, Next, React Native, Expo, Electron, Redux, React Hook Form' },
-        { name: 'TypeScript', technologies: '' },
-        { name: 'Tools', technologies: 'NPM, Yarn, Eslint, Git, GitHub Actions, Figma, Postman, VSC' },
-        { name: 'Other', technologies: 'Firebase, Vercel, Netlify' },
+        { name: 'Languages', technologies: 'HTML, CSS, SASS, JavaScript, TypeScript, Node.js' },
+        {
+            name: 'Frameworks & Libraries',
+            technologies:
+                'React, Next, Express.js, React Native, Expo, Electron, Jest, Testing Library, Cypress, Redux, React Query, Styled Components, Tailwind, Storybook, Socket.io, CSS Modules',
+        },
+        { name: 'Tools', technologies: 'Git, GitHub Actions, Docker, Webpack, Yarn, ESLint, Figma' },
+        {
+            name: 'Databases & Other:',
+            technologies: 'MySQL, MongoDB, PostgreSQL, Firebase, Supabase, Strapi, Vercel, Netlify',
+        },
     ];
 
     const getList = () => {
