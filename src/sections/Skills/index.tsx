@@ -3,7 +3,7 @@ import styles from './Skills.module.scss';
 
 export const SkillsSection = () => {
     const skills = [
-        { name: 'Languages', technologies: 'HTML, CSS, SASS, JavaScript, TypeScript, Node.js' },
+        { name: 'Languages', technologies: 'HTML, CSS, SASS, JavaScript, TypeScript, Node.js, Rust' },
         {
             name: 'Frameworks & Libraries',
             technologies:
@@ -11,8 +11,12 @@ export const SkillsSection = () => {
         },
         { name: 'Tools', technologies: 'Git, GitHub Actions, Docker, Webpack, Yarn, ESLint, Figma' },
         {
-            name: 'Databases & Other:',
+            name: 'Databases & Other',
             technologies: 'MySQL, MongoDB, PostgreSQL, Firebase, Supabase, Strapi, Vercel, Netlify',
+        },
+        {
+            name: 'Blockchain',
+            technologies: 'Polkadot, Substrate, ink!, Aleph Zero, Odra, Casper',
         },
     ];
 

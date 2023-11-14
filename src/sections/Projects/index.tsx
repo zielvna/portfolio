@@ -32,15 +32,7 @@ export const ProjectsSection = () => {
                 'A screenshot app for all platforms. By doing this project I learnt how to develop desktop apps and how to use CI/CD tools.',
             githubLink: 'https://github.com/zielvna/screenshoter',
             technologies: 'Electron, GitHub Actions',
-        },
-        {
-            name: 'Portfolio',
-            description:
-                'An app about me and all my projects. By doing this project I got more proficient in TypeScript & SASS and CSS Modules.',
-            githubLink: 'https://github.com/zielvna/portfolio/',
-            liveLink: '/',
-            technologies: 'React, TypeScript, CSS Modules, SASS, Netlify',
-        },
+        }
     ];
 
     return (
