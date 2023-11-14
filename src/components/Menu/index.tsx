@@ -22,7 +22,7 @@ export const Menu = () => {
                     <Link to={to}>{name}</Link>
                 </div>
             ))}
-            <Link to="https://drive.google.com/file/d/1fuqNHuAfh2RFqPXhJRIIyEE9Bt4awqO_/view?usp=sharing" scheme="big">
+            <Link to="https://drive.google.com/file/d/1huQ561ZbkP2KMQtcB2hXg5PLGG2ACrjF/view?usp=sharing" scheme="big">
                 Resume
             </Link>
         </>
