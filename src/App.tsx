@@ -5,6 +5,7 @@ import { Hero } from './components/Hero';
 import { Wrapper } from './components/Wrapper';
 import { AboutMeSection } from './sections/AboutMe';
 import { ContactSection } from './sections/Contact';
+import { ExperienceSection } from './sections/Experience';
 import { ProjectsSection } from './sections/Projects';
 import { SkillsSection } from './sections/Skills';
 
@@ -13,6 +14,7 @@ export const App = () => (
         <Header />
         <Hero />
         <AboutMeSection />
+        <ExperienceSection />
         <SkillsSection />
         <ProjectsSection />
         <ContactSection />
