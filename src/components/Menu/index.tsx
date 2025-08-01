@@ -8,9 +8,9 @@ export const Menu = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const links = [
-        { name: 'About me', to: '#about-me' },
         { name: 'Experience', to: '#experience' },
         { name: 'Skills', to: '#skills' },
+        { name: 'Achievements', to: '#achievements' },
         { name: 'Projects', to: '#projects' },
         { name: 'Contact', to: '#contact' },
     ];
