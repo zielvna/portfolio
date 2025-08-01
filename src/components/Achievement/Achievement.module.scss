@@ -1,0 +1,25 @@
+@use '../../partials/variables';
+
+.container {
+    border: 1px solid variables.$primaryColor;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.body {
+    margin: 8px 0 0 0;
+}
+
+.title {
+    font-weight: 700;
+}
+
+@media (min-width: variables.$desktopBreakpoint) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+}

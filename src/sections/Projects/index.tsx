@@ -5,6 +5,22 @@ import styles from './Projects.module.scss';
 export const ProjectsSection = () => {
     const projects = [
         {
+            name: 'ALPH Trade',
+            description:
+                'Crypto synthetic perpetual futures exchange. I made this project during "Why So Serious" Alephium Hackathon. By doing this project I learnt how perpetual futures exchange works, math behind it and how to organize a complete project from scratch.',
+            githubLink: 'https://github.com/zielvna/alph-trade',
+            liveLink: 'https://alph-trade.vercel.app/',
+            technologies: 'Next.js, Jest, Smart Contracts, Math',
+        },
+        {
+            name: 'Serwer',
+            description:
+                'Simplest web framework for Rust. By doing this project I learnt how the HTTP protocol works under the hood and practical experience with low-level multithreading.',
+            githubLink: 'https://github.com/zielvna/serwer',
+            liveLink: 'https://serwerframework.vercel.app/',
+            technologies: 'Rust, GitHub Actions, HTTP, Multithreading',
+        },
+        {
             name: 'Pizzaplace',
             description:
                 'A pizzeria management app. By doing this project I learnt how to test front-end and back-end and how to communicate between client and server.',

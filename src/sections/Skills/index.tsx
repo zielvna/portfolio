@@ -3,20 +3,22 @@ import styles from './Skills.module.scss';
 
 export const SkillsSection = () => {
     const skills = [
-        { name: 'Languages', technologies: 'HTML, CSS, SASS, JavaScript, TypeScript, Node.js, Rust' },
+        {
+            name: 'Languages',
+            technologies: 'HTML, CSS, SASS, JavaScript, TypeScript, Node.js, Rust, Solidity, Smart Contract Languages',
+        },
         {
             name: 'Frameworks & Libraries',
             technologies:
-                'React, Next, Express.js, React Native, Expo, Electron, Jest, Testing Library, Cypress, Redux, React Query, Styled Components, Tailwind, Storybook, Socket.io, CSS Modules',
+                'React, Next, Express.js, Fastify, NestJS, React Native, Expo, Electron, Jest, Testing Library, Cypress, Redux, Zustand, React Query, Styled Components, Tailwind, Storybook, Socket.io, CSS Modules, MUI',
         },
-        { name: 'Tools', technologies: 'Git, GitHub Actions, Docker, Webpack, Yarn, ESLint, Figma' },
+        {
+            name: 'Tools',
+            technologies: 'Linux, Bash, Git, GitHub Actions, Docker, Vite, Webpack, Yarn, ESLint, Figma, Cargo, VPS',
+        },
         {
             name: 'Databases & Other',
-            technologies: 'MySQL, MongoDB, PostgreSQL, Firebase, Supabase, Strapi, Vercel, Netlify',
-        },
-        {
-            name: 'Blockchain',
-            technologies: 'Polkadot, Substrate, ink!, Aleph Zero, Odra, Casper',
+            technologies: 'MySQL, MongoDB, PostgreSQL, Redis, Firebase, Supabase, Strapi, Vercel, Netlify',
         },
     ];
 
