@@ -13,6 +13,7 @@ const links: Link[] = [
     { name: 'gitHub', to: 'https://github.com/zielvna' },
     { name: 'linkedIn', to: 'https://www.linkedin.com/in/zielvna/' },
     { name: 'stackOverflow', to: 'https://stackoverflow.com/users/18704753/zielvna' },
+    { name: 'leetCode', to: 'https://leetcode.com/u/zielvna/' },
 ];
 
 export const ContactSection = () => {

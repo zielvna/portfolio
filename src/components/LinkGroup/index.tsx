@@ -1,4 +1,5 @@
 import { RiExternalLinkLine, RiGithubFill, RiLinkedinFill, RiStackOverflowFill } from 'react-icons/ri';
+import { SiLeetcode } from 'react-icons/si';
 import { Link } from '../Link';
 import styles from './LinkGroup.module.scss';
 
@@ -13,6 +14,7 @@ const icons = {
     stackOverflow: <RiStackOverflowFill className={styles.icon} />,
     linkedIn: <RiLinkedinFill className={styles.icon} />,
     external: <RiExternalLinkLine className={styles.icon} />,
+    leetCode: <SiLeetcode className={styles.icon} />,
 };
 
 export const LinkGroup = ({ links }: Props) => (
