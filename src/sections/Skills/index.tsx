@@ -5,20 +5,22 @@ export const SkillsSection = () => {
     const skills = [
         {
             name: 'Languages',
-            technologies: 'HTML, CSS, SASS, JavaScript, TypeScript, Node.js, Rust, Solidity, Smart Contract Languages',
+            technologies:
+                'HTML, CSS, SASS, JavaScript, TypeScript, Node.js, Rust, Bash, Terraform, Solidity, Smart Contract Languages',
         },
         {
             name: 'Frameworks & Libraries',
             technologies:
-                'React, Next, Express.js, Fastify, NestJS, React Native, Expo, Electron, Jest, Testing Library, Cypress, Redux, Zustand, React Query, Styled Components, Tailwind, Storybook, Socket.io, CSS Modules, MUI',
+                'React, Next, Express.js, Fastify, NestJS, React Native, Expo, Electron, Socket.io, Drizzle, TypeORM, Jest, Testing Library, Cypress, Playwright, Puppeteer, Vitest, Redux, Zustand, React Query, Styled Components, Tailwind, Shadcn/ui, Radix UI, Storybook, CSS Modules',
         },
         {
             name: 'Tools',
-            technologies: 'Linux, Bash, Git, GitHub Actions, Docker, Vite, Webpack, Yarn, ESLint, Figma, Cargo, VPS',
+            technologies: 'Claude, Cursor, Linux, Git, GitHub Actions, Docker, Vite, Webpack, Figma, Jira, Turborepo',
         },
         {
             name: 'Databases & Other',
-            technologies: 'MySQL, MongoDB, PostgreSQL, Redis, Firebase, Supabase, Strapi, Vercel, Netlify',
+            technologies:
+                'MySQL, MongoDB, PostgreSQL, SQLite, Redis, AWS, DigitalOcean, Firebase, Supabase, Strapi, Vercel, Netlify',
         },
     ];
 

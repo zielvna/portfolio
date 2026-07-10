@@ -6,7 +6,7 @@ export const ExperienceSection = () => {
         {
             title: 'Mid Full-stack Developer',
             company: 'Selleo',
-            period: '09.2025 - Present',
+            period: '09.2025 - 08.2026',
             tasks: [
                 'Developing front-end applications with React, Next and modern UI libraries',
                 'Building and maintaining scalable back-end services with Node.js and various frameworks/databases',
