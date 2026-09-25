@@ -7,19 +7,19 @@ export const AchievementsSection = () => {
             title: 'Alephium Hackathon #1 Pioneers - 1st place',
             date: '03.2024',
             content:
-                'Built a concentrated liquidity decentralized exchange (CLAMM DEX) with the Invariant Labs team. We won first place.',
+                'Secured 1st place among 105 participants (18 qualified submissions). Co-developed an automated market maker (AMM) decentralized exchange, building high-throughput core financial logic in a fast-paced environment.',
         },
         {
             title: 'Total Eclipse Challenge - 1st place',
             date: '09.2024',
             content:
-                'Created a full range tokenizer enabling liquidity tokenization for CLAMM DEXes. Worked with the Invariant Labs team and secured first place.',
+                'Won 1st place in a global developer hackathon ($50k total prize pool). Designed and implemented a financial tokenization tool from scratch, enabling full-range liquidity management for decentralized trading protocols.',
         },
         {
-            title: 'Alephium Hackathon 1.5: "Why So Serious" - 1st place',
+            title: 'Alephium Hackathon 1.5 Why so serious - 1st place',
             date: '10.2024',
             content:
-                'Designed and developed a crypto synthetic perpetual futures exchange from scratch. The project won first place.',
+                'Built a full-stack synthetic derivatives platform from scratch, winning 1st place out of 23 submitted projects. Engineered real-time data streaming and complex financial calculation pipelines.',
         },
     ];
 

@@ -8,11 +8,9 @@ export const ExperienceSection = () => {
             company: 'Selleo',
             period: '09.2025 - 08.2026',
             tasks: [
-                'Developing front-end applications with React, Next and modern UI libraries',
-                'Building and maintaining scalable back-end services with Node.js and various frameworks/databases',
-                'Designing and integrating APIs to support full-stack applications',
-                'Writing and maintaining unit, integration and end-to-end tests to ensure code quality and stability',
-                'Collaborating with cross-functional teams to deliver high-quality web solutions',
+                'Built and scaled web apps using React, Next.js, TypeScript, and Node.js, focusing on high performance and clean architecture',
+                'Designed REST APIs and optimized PostgreSQL query performance for high-throughput services',
+                'Maintained end-to-end testing coverage (Jest, Playwright, Vitest) and automated CI/CD pipelines with Docker & GitHub Actions',
             ],
         },
         {
@@ -20,11 +18,9 @@ export const ExperienceSection = () => {
             company: 'Invariant',
             period: '08.2023 - 09.2025',
             tasks: [
-                'Building Web3 front-end applications using React, Next and modern libraries',
-                'Creating scalable back-end services with Node.js and various frameworks and databases',
-                'Developing blockchain applications and smart contracts in Rust, Solidity and other technologies',
-                'Analyzing and optimizing complex math to ensure performance, security and stability',
-                'Researching blockchain architecture and smart contracts to support development decisions',
+                'Developed complex web interfaces in React/Next.js for real-time financial and trading workflows',
+                'Engineered core services and smart contracts in Rust & Solidity, optimizing for execution speed, security, and low latency',
+                'Implemented and refined complex mathematical models for automated market makers (AMMs) and financial protocols',
             ],
         },
     ];

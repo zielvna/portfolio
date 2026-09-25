@@ -6,7 +6,7 @@ export const Hero = () => {
             <h2 className={styles.title}>Hello, I&apos;m Jakub.</h2>
             <p className={styles.description}>
                 A passionate Full-stack Developer who likes to learn new things. In love with TypeScript and Rust.
-                Currently, I&apos;m building apps at Selleo.
+                Currently, I&apos;m looking for work.
             </p>
         </div>
     );
